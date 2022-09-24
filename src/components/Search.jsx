@@ -1,10 +1,14 @@
-import "../styles/search.css";
 import React, { useState } from "react";
+import "../styles/search.css";
 
 const Search = () => {
   return (
     <>
-      <input type="text" placeholder="enter your search" />
+      <input
+        className="search-input"
+        placeholder="enter your search"
+        type="text"
+      />
     </>
   );
 };
