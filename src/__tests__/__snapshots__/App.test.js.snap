@@ -12,6 +12,7 @@ exports[`App matches snapshot 1`] = `
     />
     <form
       class="search-form"
+      name="search-form"
     >
       <input
         class="search-form__input"
@@ -26,6 +27,14 @@ exports[`App matches snapshot 1`] = `
         Go!
       </button>
     </form>
+    <div
+      class="search-results"
+      data-testid="search-results"
+    >
+      <p>
+        Search Results
+      </p>
+    </div>
   </div>
 </DocumentFragment>
 `;

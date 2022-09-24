@@ -8,11 +8,9 @@ describe("App", () => {
     expect(asFragment()).toMatchSnapshot();
   });
 
-  it("renders a search box", () => {
+  it("renders a Search component", () => {
     render(<App />);
 
-    expect(
-      screen.getByPlaceholderText(/enter your search/i)
-    ).toBeInTheDocument();
+    expect(screen.getByRole("form")).toBeInTheDocument();
   });
 });

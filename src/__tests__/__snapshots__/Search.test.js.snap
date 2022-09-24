@@ -4,6 +4,7 @@ exports[`Search component matches snapshot 1`] = `
 <DocumentFragment>
   <form
     class="search-form"
+    name="search-form"
   >
     <input
       class="search-form__input"

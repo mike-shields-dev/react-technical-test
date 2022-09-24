@@ -1,16 +1,22 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import Search from "../components/Search";
+
+const validProps = {
+  setSearchResults: jest.fn(),
+};
+
+const renderSearch = () => render(<Search {...validProps} />);
 
 describe("Search component", () => {
   it("matches snapshot", () => {
-    const { asFragment } = render(<Search />);
+    const { asFragment } = renderSearch();
 
     expect(asFragment()).toMatchSnapshot();
   });
 
   it("displays a text input", () => {
-    render(<Search />);
+    renderSearch();
 
     expect(
       screen.getByPlaceholderText(/enter your search/i)
@@ -18,8 +24,16 @@ describe("Search component", () => {
   });
 
   it("displays a button", () => {
-    render(<Search />);
+    renderSearch();
 
     expect(screen.getByRole("button")).toBeInTheDocument();
+  });
+
+  it("calls setSearchResults function when button is clicked", async () => {
+    renderSearch();
+
+    await fireEvent.click(screen.getByRole("button"));
+
+    expect(validProps.setSearchResults).toHaveBeenCalled();
   });
 });

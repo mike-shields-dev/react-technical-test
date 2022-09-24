@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResults matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="search-results"
+    data-testid="search-results"
+  >
+    <p>
+      Search Results
+    </p>
+    <img
+      alt=""
+      class="search-results__image"
+      src="https://images-assets.nasa.gov/image/PIA12235/PIA12235~thumb.jpg"
+    />
+    <img
+      alt=""
+      class="search-results__image"
+      src="https://images-assets.nasa.gov/image/PIA13517/PIA13517~thumb.jpg"
+    />
+    <img
+      alt=""
+      class="search-results__image"
+      src="https://images-assets.nasa.gov/image/PIA12228/PIA12228~thumb.jpg"
+    />
+  </div>
+</DocumentFragment>
+`;

@@ -1,8 +1,11 @@
+import React, { useState } from "react";
 import "../styles/app.css";
-import React from "react";
 import Search from "./Search";
+import SearchResults from "./SearchResults";
 
 const App = () => {
+  const [results, setResults] = useState([]);
+
   return (
     <div className="app">
       <img
@@ -10,7 +13,8 @@ const App = () => {
         src="https://upload.wikimedia.org/wikipedia/commons/a/a3/NASA_Worm_logo.svg"
         alt="nasa logo"
       />
-      <Search />
+      <Search setSearchResults={setResults} />
+      <SearchResults results={results} />
     </div>
   );
 };

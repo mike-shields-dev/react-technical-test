@@ -1,22 +1,20 @@
 import React, { useState } from "react";
+import { PropTypes } from "prop-types";
 import getImages from "../requests/getImages";
 import "../styles/search.css";
 
-const Search = () => {
+const Search = ({ setSearchResults }) => {
   const [value, setValue] = useState("");
-  const [imageUrls, setImageUrls] = useState([]);
-
-  console.log(imageUrls);
 
   const handleChange = (e) => setValue(e.target.value);
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    getImages(value).then((imageUrls) => setImageUrls(imageUrls));
+    setSearchResults(await getImages(value));
   };
 
   return (
     <>
-      <form className="search-form" onSubmit={handleSubmit}>
+      <form className="search-form" onSubmit={handleSubmit} name="search-form">
         <input
           className="search-form__input"
           onChange={handleChange}
@@ -30,6 +28,10 @@ const Search = () => {
       </form>
     </>
   );
+};
+
+Search.propTypes = {
+  setSearchResults: PropTypes.func.isRequired,
 };
 
 export default Search;
