@@ -1,22 +1,41 @@
 .search-form {
+  position: relative;
   display: flex;
+  align-items: center;
   height: 2rem;
-  margin-top: 1rem;
-  width: 500px;
+  margin-top: var(--white-space);
+  width: 100%;
+  background-color: #fff;
+  border-radius: var(--border-rad);
+  box-shadow: 0 0 1px 1px var(--nasa-red);
 }
 
 .search-form__input {
-  border: 1px solid #000;
-  border-radius: var(--border-rad) 0 0 var(--border-rad);
-  flex-grow: 1;
+  position: absolute;
+  inset: 0 0 0 0;
+  border: none;
+  border-radius: var(--border-rad);
   font-size: 20px;
   height: inherit;
-  padding: 0 0.5rem;
+  padding: 0 3rem 0 0.5rem;
+  min-width: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.search-form__input:focus {
+  outline-style: solid outset;
+  outline-width: 2px;
+  outline-color: var(--nasa-red);
+
 }
 
 .search-form__button {
-  background-color: var(--primary-clr);
+  position: absolute;
+  right: 0;
+  background-color: var(--nasa-red);
   border-radius: 0 var(--border-rad) var(--border-rad) 0;
-  border: 1px solid var(--primary-clr);
+  border: 1px solid var(--nasa-red);
   height: inherit;
+  width: 3rem;
 }
