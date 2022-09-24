@@ -1,14 +1,22 @@
 import React, { useState } from "react";
+import getImages from "../requests/getImages";
 import "../styles/search.css";
 
 const Search = () => {
   const [value, setValue] = useState("");
+  const [imageUrls, setImageUrls] = useState([]);
+
+  console.log(imageUrls);
 
   const handleChange = (e) => setValue(e.target.value);
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    getImages(value).then((imageUrls) => setImageUrls(imageUrls));
+  };
 
   return (
     <>
-      <form className="search-form">
+      <form className="search-form" onSubmit={handleSubmit}>
         <input
           className="search-form__input"
           onChange={handleChange}
