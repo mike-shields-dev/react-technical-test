@@ -16,4 +16,10 @@ describe("Search component", () => {
       screen.getByPlaceholderText(/enter your search/i)
     ).toBeInTheDocument();
   });
+
+  it("displays a button", () => {
+    render(<Search />);
+
+    expect(screen.getByRole("button")).toBeInTheDocument();
+  });
 });

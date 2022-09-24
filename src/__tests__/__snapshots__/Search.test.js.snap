@@ -2,10 +2,21 @@
 
 exports[`Search component matches snapshot 1`] = `
 <DocumentFragment>
-  <input
-    class="search-input"
-    placeholder="enter your search"
-    type="text"
-  />
+  <form
+    class="search-form"
+  >
+    <input
+      class="search-form__input"
+      placeholder="enter your search"
+      type="text"
+      value=""
+    />
+    <button
+      class="search-form__button"
+      type="submit"
+    >
+      Go!
+    </button>
+  </form>
 </DocumentFragment>
 `;

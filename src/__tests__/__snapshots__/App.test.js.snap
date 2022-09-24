@@ -10,11 +10,22 @@ exports[`App matches snapshot 1`] = `
       class="nasa-logo"
       src="https://upload.wikimedia.org/wikipedia/commons/a/a3/NASA_Worm_logo.svg"
     />
-    <input
-      class="search-input"
-      placeholder="enter your search"
-      type="text"
-    />
+    <form
+      class="search-form"
+    >
+      <input
+        class="search-form__input"
+        placeholder="enter your search"
+        type="text"
+        value=""
+      />
+      <button
+        class="search-form__button"
+        type="submit"
+      >
+        Go!
+      </button>
+    </form>
   </div>
 </DocumentFragment>
 `;
