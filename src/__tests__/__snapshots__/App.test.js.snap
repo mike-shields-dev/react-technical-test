@@ -5,36 +5,35 @@ exports[`App matches snapshot 1`] = `
   <div
     class="app"
   >
-    <img
-      alt="nasa logo"
-      class="nasa-logo"
-      src="https://upload.wikimedia.org/wikipedia/commons/a/a3/NASA_Worm_logo.svg"
-    />
-    <form
-      class="search-form"
-      name="search-form"
-    >
-      <input
-        class="search-form__input"
-        placeholder="enter your search"
-        type="text"
-        value=""
+    <header>
+      <img
+        alt="nasa logo"
+        class="nasa-logo"
+        src="https://upload.wikimedia.org/wikipedia/commons/a/a3/NASA_Worm_logo.svg"
       />
-      <button
-        class="search-form__button"
-        type="submit"
+      <form
+        class="search-form"
+        name="search-form"
       >
-        Go!
-      </button>
-    </form>
-    <div
-      class="search-results"
-      data-testid="search-results"
+        <input
+          class="search-form__input"
+          placeholder="enter your search"
+          type="text"
+          value=""
+        />
+        <button
+          class="search-form__button"
+          type="submit"
+        >
+          Go!
+        </button>
+      </form>
+    </header>
+    <p
+      class="no-results"
     >
-      <p>
-        Search Results
-      </p>
-    </div>
+      No results
+    </p>
   </div>
 </DocumentFragment>
 `;

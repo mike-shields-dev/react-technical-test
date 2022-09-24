@@ -6,9 +6,6 @@ exports[`SearchResults matches snapshot 1`] = `
     class="search-results"
     data-testid="search-results"
   >
-    <p>
-      Search Results
-    </p>
     <img
       alt=""
       class="search-results__image"
