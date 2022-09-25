@@ -36,6 +36,13 @@ You may use this asset for your application: https://cdn.cnn.com/cnnnext/dam/ass
 - [uuid](https://www.npmjs.com/package/uuid) for generating unique `key` props when rendering lists
 - [react-responsive-masonry](https://www.npmjs.com/package/react-responsive-masonry) for handling the layout of the search result images
 
+## Wish List 
+
+- Reset the textbox value after search has been submitted 
+- Display a title with the search query above the search result images
+- Make SearchResults component render a nested scrollable element, so that Search component remains in view when scrolling
+- Make Search component responsive, switch from vertical to horizontal layout on wider screens
+
 ### Setup
 
 - Fork this repository to your own GitHub account
