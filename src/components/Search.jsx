@@ -9,7 +9,8 @@ const Search = ({ setSearchResults }) => {
   const handleChange = (e) => setValue(e.target.value);
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setSearchResults(await getImages(value));
+    const results = await getImages(value)
+    setSearchResults(results);
   };
 
   return (

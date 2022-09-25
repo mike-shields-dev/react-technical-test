@@ -8,11 +8,11 @@ const getImages = (query) => {
   return axios
     .get(`${endpoint}${query}`)
     .then((response) => {
-      const imageUrls = response.data.collection.items
+      const imageItems = response.data.collection.items
         .filter((item) => item.data[0].media_type === "image")
-        .map((image) => image.links[0].href);
+        // .map((image) => image.links[0].href);
 
-      return imageUrls;
+      return imageItems;
     })
     .catch((err) => console.log(err));
 };

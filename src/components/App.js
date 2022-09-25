@@ -5,7 +5,6 @@ import SearchResults from "./SearchResults";
 
 const App = () => {
   const [results, setResults] = useState([]);
-
   return (
     <div className="app">
       <header>

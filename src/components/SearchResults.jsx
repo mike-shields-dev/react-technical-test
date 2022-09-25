@@ -13,12 +13,12 @@ const SearchResults = ({ results }) => {
     <div className="search-results" data-testid="search-results">
       <ResponsiveMasonry columnsCountBreakPoints={{ 600: 1, 900: 2, 1200: 3 }}>
         <Masonry gutter="1rem">
-          {results.map((url) => (
+          {results.map((item) => (
             <img
               key={uuidv4()}
               className="search-results__image"
-              src={url}
-              alt=""
+              src={item.links[0].href}
+              alt={item.data[0].title}
             />
           ))}
         </Masonry>
@@ -28,7 +28,7 @@ const SearchResults = ({ results }) => {
 };
 
 SearchResults.propTypes = {
-  results: PropTypes.arrayOf(PropTypes.string).isRequired,
+  results: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
 };
 
 export default SearchResults;

@@ -1,13 +1,10 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
+import mockApiResponse from "./mockApiResponse.json";
 import SearchResults from "../components/SearchResults";
 
 const validProps = {
-  results: [
-    "https://images-assets.nasa.gov/image/PIA12235/PIA12235~thumb.jpg",
-    "https://images-assets.nasa.gov/image/PIA13517/PIA13517~thumb.jpg",
-    "https://images-assets.nasa.gov/image/PIA12228/PIA12228~thumb.jpg",
-  ],
+  results: mockApiResponse.collection.items,
 };
 const renderSearchResults = () => render(<SearchResults {...validProps} />);
 
@@ -21,6 +18,10 @@ describe("SearchResults", () => {
   it("displays a collection of image elements", () => {
     renderSearchResults();
 
-    expect(screen.getByTestId("search-results")).toBeInTheDocument();
+    mockApiResponse.collection.items.forEach((item) => {
+      const { title } = item.data[0]
+
+      expect(screen.getByAltText(title)).toBeInTheDocument();
+    });
   });
 });
