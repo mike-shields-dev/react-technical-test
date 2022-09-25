@@ -1,4 +1,5 @@
 import React from "react";
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { v4 as uuidv4 } from "uuid";
 import PropTypes from "prop-types";
 import "../styles/search-results.css";
@@ -10,14 +11,18 @@ const SearchResults = ({ results }) => {
 
   return (
     <div className="search-results" data-testid="search-results">
-      {results.map((url) => (
-        <img
-          key={uuidv4()}
-          className="search-results__image"
-          src={url}
-          alt=""
-        />
-      ))}
+      <ResponsiveMasonry columnsCountBreakPoints={{ 600: 1, 900: 2, 1200: 3 }}>
+        <Masonry gutter="1rem">
+          {results.map((url) => (
+            <img
+              key={uuidv4()}
+              className="search-results__image"
+              src={url}
+              alt=""
+            />
+          ))}
+        </Masonry>
+      </ResponsiveMasonry>
     </div>
   );
 };
