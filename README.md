@@ -31,10 +31,10 @@ You may use this asset for your application: https://cdn.cnn.com/cnnnext/dam/ass
 - [React](https://reactjs.org/), bootstrapped from [Create React App](https://github.com/facebook/create-react-app) for the UI
 - [prop-types](https://www.npmjs.com/package/prop-types) for component prop type checking
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) for testing of the Application overall and individual components
-- [nock](https://github.com/nock/nock) for isolated testing of component that make API requests
+- [nock](https://github.com/nock/nock) for isolated testing of components that make API requests
 - [axios](https://www.npmjs.com/package/axios) for handling http requests
 - [uuid](https://www.npmjs.com/package/uuid) for generating unique `key` props when rendering lists
-- [react-responsive-masonry](https://www.npmjs.com/package/react-responsive-masonry) for handling the layout of the images
+- [react-responsive-masonry](https://www.npmjs.com/package/react-responsive-masonry) for handling the layout of the search result images
 
 ### Setup
 
