@@ -40,7 +40,7 @@ You may use this asset for your application: https://cdn.cnn.com/cnnnext/dam/ass
 
 - Fork this repository to your own GitHub account
 - Clone the repository to your local development environment 
-- Point your terminal to the cloned repository's directory using `$ cd /your-cloned-repo`
+- Point your terminal to the cloned repository's directory using `$ cd <path to repo>`
 
 ### Available Scripts
 
