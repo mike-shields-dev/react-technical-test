@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-technical-test/static/css/main.2259739d.css",
+    "main.js": "/react-technical-test/static/js/main.7a1edad6.js",
+    "index.html": "/react-technical-test/index.html",
+    "main.2259739d.css.map": "/react-technical-test/static/css/main.2259739d.css.map",
+    "main.7a1edad6.js.map": "/react-technical-test/static/js/main.7a1edad6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2259739d.css",
+    "static/js/main.7a1edad6.js"
+  ]
+}
