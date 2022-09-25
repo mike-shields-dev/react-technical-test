@@ -1,5 +1,5 @@
 .no-results {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
 .search-results {
@@ -9,5 +9,5 @@
 }
 
 .search-results__image {
-  border-radius: 1rem;
+  border-radius: var(--border-rad);
 }
