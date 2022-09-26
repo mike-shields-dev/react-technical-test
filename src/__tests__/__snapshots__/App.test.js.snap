@@ -9,7 +9,7 @@ exports[`App matches snapshot 1`] = `
       <img
         alt="nasa logo"
         class="nasa-logo"
-        src="https://upload.wikimedia.org/wikipedia/commons/a/a3/NASA_Worm_logo.svg"
+        src="NASA_Worm_logo.svg"
       />
       <form
         class="search-form"
