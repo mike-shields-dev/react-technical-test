@@ -1,8 +1,7 @@
 .app {
-  align-items: center;
   display: flex;
+  align-items: center;
   flex-direction: column;
-  justify-content: center;
   padding: var(--white-space);
 }
 
