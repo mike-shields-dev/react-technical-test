@@ -29,6 +29,35 @@ You may use this asset for your application: https://cdn.cnn.com/cnnnext/dam/ass
 
 You can view the deployed application here: https://mike-shields-dev.github.io/react-technical-test/
 
+### Screenshots
+#### Desktop
+<div>
+  <img 
+     src="https://github.com/mike-shields-dev/react-technical-test/blob/master/screenshot_HD_Portrait.png" 
+     alt="screenshot of app at fullscreen size" 
+     style="width: 75%"  
+  />
+</div>
+
+#### Tablet 
+<div>
+  <img 
+     src="https://github.com/mike-shields-dev/react-technical-test/blob/master/screenshot_Surface_Pro_7.png" 
+     alt="screenshot of app at fullscreen size" 
+     style="width: 50%"  
+  />
+</div>
+
+#### Mobile
+<div>
+  <img 
+     src="https://github.com/mike-shields-dev/react-technical-test/blob/master/screenshot_iPhone_XR.png" 
+     alt="screenshot of app at fullscreen size" 
+     style="width: 25%"  
+   />
+</div>
+
+
 ### Technologies Used
 - [React](https://reactjs.org/), bootstrapped from [Create React App](https://github.com/facebook/create-react-app) for the UI
 - [prop-types](https://www.npmjs.com/package/prop-types) for component prop type checking
@@ -90,30 +119,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Screenshots
-#### Desktop
-<div>
-  <img 
-     src="https://github.com/mike-shields-dev/react-technical-test/blob/master/screenshot_HD_Portrait.png" 
-     alt="screenshot of app at fullscreen size" 
-     style="width: 75%"  
-  />
-</div>
-
-#### Tablet 
-<div>
-  <img 
-     src="https://github.com/mike-shields-dev/react-technical-test/blob/master/screenshot_Surface_Pro_7.png" 
-     alt="screenshot of app at fullscreen size" 
-     style="width: 50%"  
-  />
-</div>
-
-#### Mobile
-<div>
-  <img 
-     src="https://github.com/mike-shields-dev/react-technical-test/blob/master/screenshot_iPhone_XR.png" 
-     alt="screenshot of app at fullscreen size" 
-     style="width: 25%"  
-   />
-</div>
