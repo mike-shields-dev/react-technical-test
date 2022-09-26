@@ -1,23 +1,17 @@
 .search-form {
-  align-items: center;
   background-color: #fff;
   border-radius: var(--border-rad);
-  box-shadow: 0 0 1px 1px var(--nasa-red);
-  display: flex;
+  box-shadow: 0 0 0 1px var(--nasa-red);
   height: 2rem;
   margin-top: var(--white-space);
   position: relative;
-  width: 100%;
 }
 
 .search-form__input {
-  background-color: rgba(0, 0, 0, 0);
   border: none;
   border-radius: var(--border-rad);
-  font-size: 20px;
-  height: inherit;
+  font-size: 1.25rem;
   inset: 0 0 0 0;
-  min-width: 0;
   padding: 0 3rem 0 0.5rem;
   position: absolute;
   width: 100%;
@@ -25,15 +19,16 @@
 
 .search-form__input:focus {
   outline-color: var(--nasa-red);
-  outline-style: solid outset;
   outline-width: 2px;
-
 }
 
 .search-form__button {
   background-color: var(--nasa-red);
   border: 1px solid var(--nasa-red);
   border-radius: 0 var(--border-rad) var(--border-rad) 0;
+  box-shadow: 0 0 0 1px var(--nasa-red);
+  color: #fff;
+  font-weight: bold;
   height: inherit;
   position: absolute;
   right: 0;
