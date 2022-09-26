@@ -7,25 +7,12 @@
         "href": "https://images-assets.nasa.gov/image/PIA12235/collection.json",
         "data": [
           {
-            "center": "JPL",
-            "title": "Nearside of the Moon",
-            "nasa_id": "PIA12235",
-            "date_created": "2009-09-24T18:00:22Z",
-            "keywords": [
-              "Moon",
-              "Chandrayaan-1"
-            ],
-            "media_type": "image",
-            "description_508": "Nearside of the Moon",
-            "secondary_creator": "ISRO/NASA/JPL-Caltech/Brown Univ.",
-            "description": "Nearside of the Moon"
+            "title": "Nearside of the Moon"
           }
         ],
         "links": [
           {
-            "href": "https://images-assets.nasa.gov/image/PIA12235/PIA12235~thumb.jpg",
-            "rel": "preview",
-            "render": "image"
+            "href": "https://images-assets.nasa.gov/image/PIA12235/PIA12235~thumb.jpg"
           }
         ]
       },
@@ -33,25 +20,12 @@
         "href": "https://images-assets.nasa.gov/image/PIA13517/collection.json",
         "data": [
           {
-            "center": "JPL",
-            "title": "Color of the Moon",
-            "nasa_id": "PIA13517",
-            "date_created": "2010-09-10T22:24:40Z",
-            "keywords": [
-              "Moon",
-              "Lunar Reconnaissance Orbiter LRO"
-            ],
-            "media_type": "image",
-            "description_508": "Color of the Moon",
-            "secondary_creator": "NASA/GSFC/Arizona State University",
-            "description": "Color of the Moon"
+            "title": "Color of the Moon"
           }
         ],
         "links": [
           {
-            "href": "https://images-assets.nasa.gov/image/PIA13517/PIA13517~thumb.jpg",
-            "rel": "preview",
-            "render": "image"
+            "href": "https://images-assets.nasa.gov/image/PIA13517/PIA13517~thumb.jpg"
           }
         ]
       },
@@ -59,44 +33,14 @@
         "href": "https://images-assets.nasa.gov/video/Orion_Artemis-I_b-roll_9_2021_FS/collection.json",
         "data": [
           {
-            "description": "Animation showing Orion's journey to the Moon on Artemis I - full screen version.  Artemis I will be the first integrated flight test of NASA’s deep space exploration system: the Orion spacecraft, Space Launch System (SLS) rocket and the ground systems at Kennedy Space Center in Cape Canaveral, Florida. During this flight, the uncrewed Orion spacecraft will launch on the most powerful rocket in the world and travel thousands of miles beyond the Moon, farther than any spacecraft built for humans has ever flown, over the course of about a three-week mission.",
-            "title": "Orion_Artemis-I_animation_b-roll_9_2021_FS",
-            "location": "Moon",
-            "nasa_id": "Orion_Artemis-I_b-roll_9_2021_FS",
-            "media_type": "video",
-            "keywords": [
-              "Orion",
-              "Artemis",
-              "Animation",
-              "Moon"
-            ],
-            "date_created": "2021-09-15T00:00:00Z",
-            "description_508": "Orion Artemis I animation b-roll - full screen",
-            "secondary_creator": "NASA / Liam Yanulis",
-            "center": "JSC"
+            "title": "Orion_Artemis-I_animation_b-roll_9_2021_FS"
           }
         ],
         "links": [
           {
-            "href": "https://images-assets.nasa.gov/video/Orion_Artemis-I_b-roll_9_2021_FS/Orion_Artemis-I_b-roll_9_2021_FS~thumb.jpg",
-            "rel": "preview",
-            "render": "image"
-          },
-          {
-            "href": "https://images-assets.nasa.gov/video/Orion_Artemis-I_b-roll_9_2021_FS/Orion_Artemis-I_b-roll_9_2021_FS.srt",
-            "rel": "captions"
+            "href": "https://images-assets.nasa.gov/video/Orion_Artemis-I_b-roll_9_2021_FS/Orion_Artemis-I_b-roll_9_2021_FS~thumb.jpg"
           }
         ]
-      }
-    ],
-    "metadata": {
-      "total_hits": 14218
-    },
-    "links": [
-      {
-        "rel": "next",
-        "prompt": "Next",
-        "href": "http://images-api.nasa.gov/search?q=moon&page=2"
       }
     ]
   }
