@@ -6,8 +6,8 @@ You are expected to build a React web application that allows users to search fo
 We want you to consider and add anything to your repository that should be included was this to be a live website.
 
 The following functionalities need to be implemented:
-● A Search page which allows users to search for images by keyword
-● Images must be returned upon a successful search
+- A Search page which allows users to search for images by keyword
+- Images must be returned upon a successful search
 
 The styling is up to you but will be taken into consideration when evaluating your application.
 
