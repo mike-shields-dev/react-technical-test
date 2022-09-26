@@ -7,13 +7,11 @@ const getImages = (query) => {
   }
   return axios
     .get(`${endpoint}${query}`)
-    .then((response) => {
-      const imageItems = response.data.collection.items
-        .filter((item) => item.data[0].media_type === "image")
-        // .map((image) => image.links[0].href);
-
-      return imageItems;
-    })
+    .then((response) =>
+      response.data.collection.items.filter(
+        (item) => item.data[0].media_type === "image"
+      )
+    )
     .catch((err) => console.log(err));
 };
 
